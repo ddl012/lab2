@@ -2,7 +2,9 @@
 
 <html>
 <head>
-	<title>HCI Project Portfolio</title>	
+	<link	href="css/introHCI.css"	rel="stylesheet"	/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<title>HCI Project Portfolio</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- this is a comment in HTML -->
@@ -12,14 +14,14 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->        
+    <![endif]-->
 </head>
-
+<div class="container">
 <body>
 	<div>
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
-		<div>
+		<div class="jumbotron">
 			<h1>Michael Bernstein</h1>
 			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
 		</div>
@@ -30,53 +32,59 @@
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
 		<div id="project1">
-			<a href="project.html">
-				<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image">
+			<a href="project.html" class = "thumbnail">
+				<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image" class="img">
 				<p>Waiting in Line</p>
 			</a>
 		</div>
 		<div id="project2">
-			<a href="project.html">
-				<img src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image">
+			<a href="project.html" class = "thumbnail">
+				<img src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image" class="img">
 				<p>Needfinding</p>
 			</a>
 		</div>
 		<div id="project3">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image">
+			<a href="project.html" class = "thumbnail">
+				<img src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image" class="img">
 				<p>Prototyping</p>
 			</a>
 		</div>
 		<div id="project4">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image">
+			<a href="project.html" class = "thumbnail">
+				<img src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image" class="img">
 				<p>Heuristic Evaluation</p>
 			</a>
 		</div>
 		<div id="project5">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image">
+			<a href="project.html" class = "thumbnail">
+				<img src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image" class="img">
 				<p>Visualization</p>
 			</a>
 		</div>
 		<div id="project6">
-			<a href="project.html">
-				<img src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image">
+			<a href="project.html" class = "thumbnail">
+				<img src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image" class="img">
 				<p>Social design</p>
 			</a>
 		</div>
 		<div id="project7">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image">
+			<a href="project.html" class = "thumbnail">
+				<img src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image" class="img">
 				<p>Gestural interaction</p>
 			</a>
 		</div>
 		<div id="project8">
-			<a href="project.html">
-				<img src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image">
+			<a href="project.html" class = "thumbnail">
+				<img src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image" class="img">
 				<p>Design tools</p>
 			</a>
 		</div>
 	</div>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
 </body>
+</div>
 </html>
